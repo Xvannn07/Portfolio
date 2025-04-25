@@ -1,6 +1,10 @@
 # portofolio
+This is a simple portfolio with a modern and cool design.
 
 ## Preview
+[![Demo](https://xvannn.xyz)
+
+
 ![Ekspann.png](https://raw.githubusercontent.com/Xvannn07/Portfolio/refs/heads/main/gambar/Ekspann.png)
 
 ## Project setup
