@@ -1,7 +1,7 @@
 # portofolio
 
-##Preview
-[Ekspann.png)(https://raw.githubusercontent.com/Xvannn07/Portfolio/refs/heads/main/gambar/Ekspann.png)
+## Preview
+![Ekspann.png](https://raw.githubusercontent.com/Xvannn07/Portfolio/refs/heads/main/gambar/Ekspann.png)
 
 ## Project setup
 ```
