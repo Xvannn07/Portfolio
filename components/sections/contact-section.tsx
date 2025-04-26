@@ -1,7 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Mail, Github, Instagram, CircleUser } from "lucide-react"
+import { Mail, Github, Instagram, CircleUser, ExternalLink } from "lucide-react"
 import Link from "next/link"
 import { MotionWrapper, SlideInLeft, SlideInRight } from "@/components/motion-wrapper"
 import { motion } from "framer-motion"
@@ -19,6 +19,12 @@ export function ContactSection() {
       name: "Instagram",
       icon: <Instagram className="h-5 w-5 text-primary" />,
       link: "https://instagram.com/xvannn07",
+    },
+    {
+      index: 2,
+      name: "Lynk",
+      icon: <ExternalLink className="h-5 w-5 text-primary" />,
+      link: "https://lynk.id/xvannn",
     }
   ]
 
