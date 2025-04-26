@@ -24,7 +24,7 @@ export function HeroSection() {
   return (
     <section id="hero" className="relative w-full py-24 md:py-32 lg:py-40 bg-gradient-to-b from-background to-muted">
       <ParticlesBackground />
-      <div className="container relative z-10 px-4 md:px-6">
+      <div className="container relative z-10 px-4 md:px-6 max-w mx-auto">
         <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
           <SlideInLeft>
             <div className="flex flex-col justify-center space-y-4">
