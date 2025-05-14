@@ -24,7 +24,7 @@ export function EducationSection() {
     {
       level: "Sekolah Menengah Pertama (SMP)",
       school: "SMP Negeri 5 Singaraja",
-      yearStart: "2011",
+      yearStart: "2020",
       yearEnd: "2023",
       description: "Active in student organizations and self-directed.",
       image: "/school/smpn5singaraja.jpg?height=200&width=200",
