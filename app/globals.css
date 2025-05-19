@@ -101,3 +101,30 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-left {
+  animation: slideLeft 50s linear infinite;
+}
+
+.animate-slide-right {
+  animation: slideRight 50s linear infinite;
+}
+
