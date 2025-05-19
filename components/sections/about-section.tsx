@@ -1,6 +1,6 @@
 "use client"
 
-import { User, Code } from "lucide-react"
+import { User, Code, BookUser } from "lucide-react"
 import {
   FadeInItem,
   MotionWrapper,
@@ -20,6 +20,7 @@ export function AboutSection() {
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
               <div className="inline-block rounded-lg bg-primary px-3 py-1 text-sm text-primary-foreground">
+                <BookUser className="w-4 h-4 inline-block mr-2" />
                 About ME
               </div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">About ME</h2>
