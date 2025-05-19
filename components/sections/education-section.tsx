@@ -1,6 +1,6 @@
 "use client"
 
-import { BoneIcon as Mortarboard, Calendar } from "lucide-react"
+import { BoneIcon as Mortarboard, Calendar, GraduationCap } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 import { 
   MotionWrapper, 
@@ -52,6 +52,7 @@ export function EducationSection() {
                 transition={{ duration: 0.5 }}
                 className="inline-block rounded-lg bg-primary px-3 py-1 text-sm text-primary-foreground"
               >
+                <GraduationCap className="w-4 h-4 inline-block mr-2" />
                 Education
               </motion.div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Education History</h2>
