@@ -7,6 +7,7 @@ import {
   FadeInItem 
 } from "@/components/motion-wrapper"
 import { motion } from "framer-motion"
+import { BookMarked } from "lucide-react"
 
 export function SkillsSection() {
   const skills = [
@@ -36,6 +37,7 @@ export function SkillsSection() {
                 transition={{ duration: 0.5 }}
                 className="inline-block rounded-lg bg-primary px-3 py-1 text-sm text-primary-foreground"
               >
+                <BookMarked className="w-4 h-4 inline-block mr-2" />
                 Skills
               </motion.div>
               <motion.h2 
