@@ -10,7 +10,7 @@ export function CertificateSection() {
   const certificates = [
     {
       id: "tab1",
-      title: "Backend Javascript Fundamentals",
+      title: "Backend Javascript",
       issuer: "Dicoding Indonesia Academy",
       date: "18 May 2025",
       category: "Web Development",
