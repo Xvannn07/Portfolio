@@ -60,7 +60,7 @@ export function ContactSection() {
                 </div>
                 <div>
                   <h3 className="text-lg font-medium">Email</h3>
-                  <p className="text-muted-foreground">xvannn07@example.com</p>
+                  <p className="text-muted-foreground">xvannn07@gmail.com</p>
                 </div>
               </motion.div>
 
