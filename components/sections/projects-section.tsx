@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { Github, ExternalLink } from "lucide-react"
+import { Github, ExternalLink, FileCode2 } from "lucide-react"
 import Link from "next/link"
 import { 
   MotionWrapper, 
@@ -60,9 +60,10 @@ export function ProjectsSection() {
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
               <div className="inline-block rounded-lg bg-primary px-3 py-1 text-sm text-primary-foreground">
+                <FileCode2 className="w-4 h-4 inline-block mr-2" />
                 Portfolio
               </div>
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Latest Work</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">My Project</h2>
               <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Here are some recent projects I've worked on.
               </p>
