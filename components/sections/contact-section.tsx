@@ -1,7 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Mail, Github, Instagram, CircleUser, ExternalLink } from "lucide-react"
+import { Mail, Github, Instagram, CircleUser, ExternalLink, Contact  } from "lucide-react"
 import Link from "next/link"
 import { MotionWrapper, SlideInLeft, SlideInRight } from "@/components/motion-wrapper"
 import { motion } from "framer-motion"
@@ -35,7 +35,8 @@ export function ContactSection() {
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
               <div className="inline-block rounded-lg bg-primary px-3 py-1 text-sm text-primary-foreground">
-                Kontak
+                <Contact className="w-4 h-4 inline-block mr-2" />
+                Contact
               </div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Contact ME</h2>
               <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
