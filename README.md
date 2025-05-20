@@ -5,7 +5,7 @@ This is a simple portfolio with a modern and cool design.
 [Demo](https://xvannn.xyz)
 
 
-![Ekspann.png](https://raw.githubusercontent.com/Xvannn07/Portfolio/refs/heads/main/gambar/Ekspann.png)
+![Ekspann.png](https://raw.githubusercontent.com/Xvannn07/Portfolio/refs/heads/main/gambar/Screenshot 2025-05-20 135844.png)
 
 ## Project setup
 ```
