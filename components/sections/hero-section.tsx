@@ -23,7 +23,6 @@ export function HeroSection() {
 
   return (
     <section id="hero" className="relative w-full min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-b from-background to-muted">
-      <ParticlesBackground />
       
       {/* Running Text Background - Top */}
       <div className="absolute inset-0 overflow-hidden opacity-5">
