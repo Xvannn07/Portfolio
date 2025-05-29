@@ -14,7 +14,7 @@ export function SkillsSection() {
     {
       index: 0,
       name: "HTML & CSS",
-      icon <RemoveFormatting className="h-5 w-5 text-primary" />
+      icon: <RemoveFormatting className="h-5 w-5 text-primary" />
     },
     {
       index: 1,
