@@ -7,69 +7,94 @@ import {
   FadeInItem 
 } from "@/components/motion-wrapper"
 import { motion } from "framer-motion"
-import { BookMarked, RemoveFormatting, Code, TypeOutline, Worm, Atom, CodeXml, Braces, Palette, Server, LayoutDashboard, GitBranch, Workflow } from "lucide-react"
+import { 
+  BookMarked, 
+  Code2, 
+  FileJson, 
+  Binary,
+  Atom, 
+  CodeXml,
+  ServerIcon,
+  Palette,
+  Terminal,
+  PenTool,
+  GitBranchPlus,
+  Webhook
+} from "lucide-react"
 
 export function SkillsSection() {
   const skills = [
     {
       index: 0,
       name: "HTML & CSS",
-      icon: <RemoveFormatting className="h-5 w-5 text-primary" />
+      icon: <Code2 className="h-6 w-6 text-primary mb-3" />,
+      category: "Frontend"
     },
     {
       index: 1,
       name: "JavaScript",
-      icon: <Code className="h-5 w-5 text-primary" />
+      icon: <FileJson className="h-6 w-6 text-primary mb-3" />,
+      category: "Programming"
     },
     {
       index: 2,
       name: "TypeScript",
-      icon: <TypeOutline className="h-5 w-5 text-primary" />
+      icon: <Binary className="h-6 w-6 text-primary mb-3" />,
+      category: "Programming"
     },
     {
       index: 3,
       name: "Python",
-      icon: <Worm className="h-5 w-5 text-primary" />
+      icon: <Terminal className="h-6 w-6 text-primary mb-3" />,
+      category: "Programming"
     },
     {
       index: 4,
       name: "React",
-      icon: <Atom className="h-5 w-5 text-primary" />
+      icon: <Atom className="h-6 w-6 text-primary mb-3" />,
+      category: "Frontend"
     },
     {
       index: 5,
       name: "Next.js",
-      icon: <CodeXml className="h-5 w-5 text-primary" />
+      icon: <CodeXml className="h-6 w-6 text-primary mb-3" />,
+      category: "Frontend"
     },
     {
       index: 6,
       name: "Express.js",
-      icon: <Braces className="h-5 w-5 text-primary" />
+      icon: <ServerIcon className="h-6 w-6 text-primary mb-3" />,
+      category: "Backend"
     },
     {
       index: 7,
       name: "Tailwind CSS",
-      icon: <Palette className="h-5 w-5 text-primary" />
+      icon: <Palette className="h-6 w-6 text-primary mb-3" />,
+      category: "Frontend"
     },
     {
       index: 8,
       name: "Node.js",
-      icon: <Server className="h-5 w-5 text-primary" />
+      icon: <ServerIcon className="h-6 w-6 text-primary mb-3" />,
+      category: "Backend"
     },
     {
       index: 9,
       name: "UI/UX Design",
-      icon: <LayoutDashboard className="h-5 w-5 text-primary" />
+      icon: <PenTool className="h-6 w-6 text-primary mb-3" />,
+      category: "Design"
     },
     {
       index: 10,
       name: "Git",
-      icon: <GitBranch className="h-5 w-5 text-primary" />
+      icon: <GitBranchPlus className="h-6 w-6 text-primary mb-3" />,
+      category: "Tools"
     },
     {
       index: 11,
       name: "API Integration",
-      icon: <Workflow className="h-5 w-5 text-primary" />
+      icon: <Webhook className="h-6 w-6 text-primary mb-3" />,
+      category: "Backend"
     }
   ]
 
@@ -108,25 +133,34 @@ export function SkillsSection() {
           </div>
         </MotionWrapper>
 
-        <StaggerContainer className="mx-auto grid max-w-5xl grid-cols-2 gap-6 py-12 md:grid-cols-3 lg:grid-cols-4">
+        <StaggerContainer className="mx-auto grid max-w-5xl grid-cols-1 gap-4 py-12 md:grid-cols-2 lg:grid-cols-3">
           {skills.map((skill) => (
             <ScaleInItem key={skill.name}>
               <motion.div
-                whileHover={{ scale: 1.05, y: -5 }}
-                whileTap={{ scale: 0.95 }}
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
                 transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                className="flex flex-col items-center justify-center space-y-2 rounded-lg border bg-background p-4 hover:border-primary/50 hover:shadow-md"
+                className="flex items-center gap-4 rounded-lg border bg-background p-4 hover:border-primary/50 hover:shadow-md"
               >
                 <FadeInItem>
-                  <motion.div 
-                    className="text-lg font-medium"
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ delay: 0.1 * skill.index }}
-                  >
-                    {skill.icon}
-                    {skill.name}
-                  </motion.div>
+                  <div className="flex items-center gap-4 w-full">
+                    <div className="flex-shrink-0 p-2 rounded-md bg-primary/10">
+                      {skill.icon}
+                    </div>
+                    <div className="flex flex-col">
+                      <motion.span 
+                        className="text-base font-medium"
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        transition={{ delay: 0.1 * skill.index }}
+                      >
+                        {skill.name}
+                      </motion.span>
+                      <span className="text-xs text-muted-foreground">
+                        {skill.category}
+                      </span>
+                    </div>
+                  </div>
                 </FadeInItem>
               </motion.div>
             </ScaleInItem>
