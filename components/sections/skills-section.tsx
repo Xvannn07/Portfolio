@@ -7,22 +7,70 @@ import {
   FadeInItem 
 } from "@/components/motion-wrapper"
 import { motion } from "framer-motion"
-import { BookMarked } from "lucide-react"
+import { BookMarked, RemoveFormatting, Code, TypeOutline, Worm, Atom, CodeXml, Braces, Palette, Server, LayoutDashboard, GitBranch, Workflow } from "lucide-react"
 
 export function SkillsSection() {
   const skills = [
-    "HTML & CSS",
-    "JavaScript",
-    "TypeScript",
-    "Python",
-    "React",
-    "Next.js",
-    "Express.js",
-    "Tailwind CSS",
-    "Node.js",
-    "UI/UX Design",
-    "Git",
-    "API Integration",
+    {
+      index: 0,
+      name: "HTML & CSS",
+      icon <RemoveFormatting className="h-5 w-5 text-primary" />
+    },
+    {
+      index: 1,
+      name: "JavaScript",
+      icon: <Code className="h-5 w-5 text-primary" />
+    },
+    {
+      index: 2,
+      name: "TypeScript",
+      icon: <TypeOutline className="h-5 w-5 text-primary" />
+    },
+    {
+      index: 3,
+      name: "Python",
+      icon: <Worm className="h-5 w-5 text-primary" />
+    },
+    {
+      index: 4,
+      name: "React",
+      icon: <Atom className="h-5 w-5 text-primary" />
+    },
+    {
+      index: 5,
+      name: "Next.js",
+      icon: <CodeXml className="h-5 w-5 text-primary" />
+    },
+    {
+      index: 6,
+      name: "Express.js",
+      icon: <Braces className="h-5 w-5 text-primary" />
+    },
+    {
+      index: 7,
+      name: "Tailwind CSS",
+      icon: <Palette className="h-5 w-5 text-primary" />
+    },
+    {
+      index: 8,
+      name: "Node.js",
+      icon: <Server className="h-5 w-5 text-primary" />
+    },
+    {
+      index: 9,
+      name: "UI/UX Design",
+      icon: <LayoutDashboard className="h-5 w-5 text-primary" />
+    },
+    {
+      index: 10,
+      name: "Git",
+      icon: <GitBranch className="h-5 w-5 text-primary" />
+    },
+    {
+      index: 11,
+      name: "API Integration",
+      icon: <Workflow className="h-5 w-5 text-primary" />
+    }
   ]
 
   return (
@@ -61,8 +109,8 @@ export function SkillsSection() {
         </MotionWrapper>
 
         <StaggerContainer className="mx-auto grid max-w-5xl grid-cols-2 gap-6 py-12 md:grid-cols-3 lg:grid-cols-4">
-          {skills.map((skill, index) => (
-            <ScaleInItem key={skill}>
+          {skills.map((skill) => (
+            <ScaleInItem key={skill.name}>
               <motion.div
                 whileHover={{ scale: 1.05, y: -5 }}
                 whileTap={{ scale: 0.95 }}
@@ -74,9 +122,10 @@ export function SkillsSection() {
                     className="text-lg font-medium"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
-                    transition={{ delay: 0.1 * index }}
+                    transition={{ delay: 0.1 * skill.index }}
                   >
-                    {skill}
+                    {skill.icon}
+                    {skill.name}
                   </motion.div>
                 </FadeInItem>
               </motion.div>
