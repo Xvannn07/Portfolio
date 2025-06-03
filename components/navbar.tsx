@@ -12,12 +12,37 @@ export function Navbar() {
   const [scrolled, setScrolled] = useState(false)
 
   const navItems = [
-    { name: "About", href: "#about" },
-    { name: "Skills", href: "#skills" },
-    { name: "Education", href: "#education" },
-    { name: "Portfolio", href: "#projects" },
-    { name: "Certificates", href: "#certificates" },
-    { name: "Contact", href: "#contact" },
+    { 
+      index: 0,
+      name: "About", 
+      href: "#about",
+      icon: <Award className="w-4 h-4 inline-block mr-2" />
+    },
+    { 
+      index: 1,
+      name: "Skills", 
+      href: "#skills" 
+    },
+    { 
+      index: 2,
+      name: "Education", 
+      href: "#education" 
+    },
+    { 
+      index: 3,
+      name: "Portfolio", 
+      href: "#projects" 
+    },
+    { 
+      index: 4,
+      name: "Certificates", 
+      href: "#certificates" 
+    },
+    { 
+      index: 5,
+      name: "Contact", 
+      href: "#contact" 
+    },
   ]
 
   useEffect(() => {
