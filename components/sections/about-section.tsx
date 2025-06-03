@@ -26,7 +26,7 @@ export function AboutSection() {
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">About ME</h2>
               <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 I am a student who likes to learn programming languages and also internet networking. 
-                I am from bali and studied at smkn 3 singaraja school, 
+                I am from bali and studied at smkn 3 singaraja at school, 
                 with my chosen major of telecommunication network. 
                 With a background in programming and network expertise, I combine creativity with technical expertise to produce products that meet user needs and benefit everyone.
               </p>
