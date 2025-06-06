@@ -15,8 +15,7 @@ export function Navbar() {
     { 
       index: 0,
       name: "About", 
-      href: "#about",
-      icon: <Award className="w-4 h-4 inline-block mr-2" />
+      href: "#about"
     },
     { 
       index: 1,
