@@ -51,6 +51,15 @@ export function ProjectsSection() {
       github: "https://github.com/Xvannn07/templat-hostpot-mikrotik",
       demo: null,
     },
+    {
+      index: 4,
+      title: "Template Hotspot Mikrotik V2",
+      description: "A Mikrotik hotspot template script that allows you to change the UI on the Mikrotik hotspot so that it looks cooler and more modern.",
+      image: "/portfolio/project-mikrotik-v2.png?height=300&width=700",
+      tags: ["HTML/CSS", "JavaScript", "Mikrotik"],
+      github: "https://github.com/Xvannn07/template-hotpot-mikrotik-v2",
+      demo: null,
+    }
   ]
 
   return (
