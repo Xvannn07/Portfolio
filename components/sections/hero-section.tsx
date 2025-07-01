@@ -61,10 +61,10 @@ export function HeroSection() {
                     initial={{ scale: 1.2, opacity: 0 }}
                     animate={{ scale: 1, opacity: 1 }}
                     transition={{ duration: 0.5, delay: 0.3 }}
-                    src="/img/profil.png"
+                    src="/img/ekspannn-prof.jpg"
                     alt="Profile"
-                    width={400}
-                    height={400}
+                    width={500}
+                    height={500}
                     className="aspect-square rounded-full object-cover"
                   />
                 </div>
