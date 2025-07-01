@@ -2,7 +2,7 @@
 This is a simple portfolio with a modern and cool design.
 
 ## Preview
-[Demo](https://xvannn.xyz)
+[Demo](https://xvannn07.is-a.dev)
 
 
 ![Ekspann.png](https://raw.githubusercontent.com/Xvannn07/Portfolio/refs/heads/main/gambar/Screenshot%202025-05-20%20135844.png)
