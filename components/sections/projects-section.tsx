@@ -22,7 +22,7 @@ export function ProjectsSection() {
       image: "/portfolio/project-chatgpt.png?height=300&width=700",
       tags: ["React", "Vuejs", "Node.js", "Tailwind CSS"],
       github: null,
-      demo: "https://chatgpt.xvannn.xyz",
+      demo: "https://chatgpt.xvannn07.xyz",
     },
     {
       index: 1,
@@ -31,7 +31,7 @@ export function ProjectsSection() {
       image: "/portfolio/project-webdl.png?height=300&width=700",
       tags: ["ExpressJs", "Tailwind CSS", "Node.js", "HTML"],
       github: "https://github.com/xvannn07/web-down",
-      demo: "https://webdl.xvannn.xyz",
+      demo: "https://webdl.xvannn07.xyz",
     },
     {
       index: 2,
@@ -40,7 +40,7 @@ export function ProjectsSection() {
       image: "/portfolio/project-tiktok.png?height=300&width=700",
       tags: ["ExpressJS", "Bootsrap", "Node.js", "HTML/CSS"],
       github: "https://github.com/tiktok-downloader",
-      demo: "https://tiktok.xvannn.xyz",
+      demo: "https://tiktok.xvannn07.xyz",
     },
     {
       index: 3,
