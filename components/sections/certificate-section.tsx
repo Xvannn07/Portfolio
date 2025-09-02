@@ -39,6 +39,16 @@ export function CertificateSection() {
       description: "Successful completion of the basic javascript programming course.",
       imageUrl: "/certificates/pemograman-javascript.png",
       pdfUrl: "/certificates/pemograman-javascript.pdf"
+    },
+    {
+      id: "tab3",
+      title: "Mikrotik MTCNA",
+      issuer: "Mikrotik Academy",
+      date: "2 September 2025",
+      category: "Mikrotik",
+      description: "successfully completed the appropriate training and certification requirements, is hereby recognised as a MikroTik Certified Network Associate",
+      imageUrl: "/certificates/mikrotik-mtcna.png",
+      pdfUrl: "/certificates/mikrotik-mtcna.pdf"
     }
   ]
 
