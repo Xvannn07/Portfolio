@@ -59,6 +59,15 @@ export function ProjectsSection() {
       tags: ["HTML/CSS", "JavaScript", "Mikrotik"],
       github: "https://github.com/Xvannn07/template-hotpot-mikrotik-v2",
       demo: null,
+    },
+    {
+      index: 5,
+      title: "Class Profile TJKT 2",
+      description: "Displays class profiles with various activities, group photos, and also the class organizational structure.",
+      image: "/portfolio/project-kelas.png?height=300&width=700",
+      tags: ["HTML/CSS", "Javascript", "VueJS", "Tailwind CSS"],
+      github: null,
+      demo: "https://tjkt2.vannesa.biz.id",
     }
   ]
 
